@@ -2,7 +2,7 @@
 #![allow(clippy::future_not_send)]
 
 use abjad::{Abjad, AbjadPrefs};
-use worker::{event, Context, Env, Request, Response, ResponseBuilder, Result};
+use worker::{Context, Env, Request, Response, ResponseBuilder, Result, event};
 
 #[event(fetch)]
 async fn fetch(req: Request, _env: Env, _ctx: Context) -> Result<Response> {

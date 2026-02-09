@@ -2,7 +2,7 @@
 name = "abjad-api"
 version = "0.1.0"
 edition = "2024"
-authors = ["Theo Beers <tb3367@drexel.edu>"]
+authors = ["Theo Beers <theodore@boot.dev>"]
 
 [package.metadata.release]
 release = false
@@ -15,7 +15,7 @@ wasm-opt = false
 crate-type = ["cdylib"]
 
 [dependencies]
-abjad = "0.5.0"
+abjad = "0.6.0"
 console_error_panic_hook = { version = "0.1.7" }
-worker = { version = "0.5.0" }
-worker-macros = { version = "0.5.0" }
+worker = { version = "0.7.4" }
+worker-macros = { version = "0.7.4" }
